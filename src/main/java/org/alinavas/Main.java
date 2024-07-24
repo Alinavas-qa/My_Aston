@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Orange\nBanana\nApple");
     }
     public static void checkSumSign() {
-        int a = 5;
+        int a = 4;
         int b = 9;
         int sum = a + b;
         if (sum >= 0)
