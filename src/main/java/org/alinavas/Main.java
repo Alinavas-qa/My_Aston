@@ -1,5 +1,4 @@
 package org.alinavas;
-
 public class Main {
     public static void main(String[] args) {
         printThreeWords();
@@ -18,7 +17,6 @@ public class Main {
             System.out.println("Сумма положительная");
         else
             System.out.println("Сумма отрицатльная");
-
         }
     public static void printColor() {
         int value = 101;
