@@ -8,16 +8,15 @@ package org.alinavas;
 следующему принципу: индексы таких элементов равны, то
 есть [0][0], [1][1], [2][2], ..., [n][n];
 */
-public class ArrayNN {
+public class Array9 {
     public static void main (String[] args) {
-        int [][] arr = new int[5][5];
+        int [][] arr = new int[3][3];
                 for (int i = 0; i < arr.length; i++) {
                     for (int j = 0; j < arr.length; j++) {
-                        arr [i][i] = 1;
-                        System.out.println(arr [i][j]  + "");
+                        arr[i][i] = 1;
+                        System.out.println(arr[i][j] + "");
                     }
                     System.out.println();
                 }
-
     }
 }
