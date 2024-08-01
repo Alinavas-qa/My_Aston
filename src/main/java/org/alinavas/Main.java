@@ -13,10 +13,7 @@ public class Main {
         int a = 4;
         int b = 9;
         int sum = a + b;
-        if (sum >= 0)
-            System.out.println("Сумма положительная");
-        else
-            System.out.println("Сумма отрицатльная");
+            System.out.println( sum >= 0 ? "Сумма положительная" : "Сумма отрицатльная");//использ тернарного оп-ра вместо if-else
         }
     public static void printColor() {
         int value = 101;
@@ -30,9 +27,6 @@ public class Main {
     public static void compareNumbers() {
         int a = 10;
         int b = 100;
-        if (a > b || a == b)
-            System.out.println("a >= b");
-        else
-            System.out.println("a < b");
+            System.out.println(a > b || a == b ? "a >= b" : "a < b");
     }
 }
