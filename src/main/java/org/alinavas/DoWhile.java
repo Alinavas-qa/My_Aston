@@ -7,9 +7,9 @@ public class DoWhile {
         Scanner s = new Scanner(System.in);//Создаем переменную s класса Scanner и ссылаем ее на объект класса Scanner,
         // в параметрах входной поток с клавы
         int value;
-        do{
+        do {
             System.out.println("Ввведи 5");
-            value = s.nextInt();// поместили введенное с клавы число в переменную value
+            value = s.nextInt();// вводим число, поместили введенное с клавы число в переменную value
         } while (value != 5);
         System.out.println("Вы ввели 5");
     }
