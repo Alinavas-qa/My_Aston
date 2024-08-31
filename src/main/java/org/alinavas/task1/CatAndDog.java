@@ -41,6 +41,7 @@ public class CatAndDog {
                 System.out.println("Котик " + cat[i].name + " не поел " + cat[i].satiety);
             }
         }
+
         bowl1.info();
         bowl1.addFood(100);
         bowl1.info();
