@@ -1,6 +1,7 @@
 package org.alinavas.task1;
 
 public class CatAndDog {
+
     public static void main (String[] args) {
 
         Dog sam = new Dog("Сэм");
